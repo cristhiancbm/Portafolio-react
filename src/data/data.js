@@ -1,7 +1,7 @@
 //otras imagenes
 
 export const imagenes = {
-  img1: '../../../miFoto.png',
+  img1: './miFoto.png',
 }
 
 // Datos Personales
@@ -12,9 +12,9 @@ export const datos_personales = {
   ape_materno: 'Mamani',
   correo: 'cristhiancruz030598@gmail.com',
   celular: '67344498',
-  fotografia1: '../../../img1.png',
+  fotografia1: './img1.png',
   fotografia2: '',
-  cv: '../../../Cristhian-Bautista-(C.V.).pdf'
+  cv: './Cristhian-Bautista-(C.V.).pdf'
 }
 
 //Contactos
@@ -148,22 +148,22 @@ export const lenguajes_prog = [
   {
     nombre: 'JavaScript',
     nivel: 'Intermedio',
-    logo: '../../../icons_tecnology/js.png'
+    logo: './icons_tecnology/js.png'
   },
   {
     nombre: 'Java',
     nivel: 'Básico',
-    logo: '../../../icons_tecnology/java.png'
+    logo: './icons_tecnology/java.png'
   },
   {
     nombre: 'PHP',
     nivel: 'Básico',
-    logo: '../../../icons_tecnology/php.png'
+    logo: './icons_tecnology/php.png'
   },
   {
     nombre: 'Python',
     nivel: 'Básico',
-    logo: '../../../icons_tecnology/python.png'
+    logo: './icons_tecnology/python.png'
   },
 
 ];
@@ -185,7 +185,7 @@ export const proy_mat = {
   proyectos: [
     {
       id: 1,
-      imagen: '../../../materiales/viajes-bolivia.png',
+      imagen: './materiales/viajes-bolivia.png',
       titulo: 'Viajes Bolivia',
       categoria: 'diseño web',
       demo: 'https://cristhiancbm.github.io/design-agencia-viajes/',
@@ -194,23 +194,23 @@ export const proy_mat = {
         {
           id_tec: 1,
           nom_tecnologia: 'Html',
-          icono: '../../../icons_tecnology/html.png'
+          icono: './icons_tecnology/html.png'
         },
         {
           id_tec: 2,
           nom_tecnologia: 'CSS',
-          icono: '../../../icons_tecnology/css.png'
+          icono: './icons_tecnology/css.png'
         },
         {
           id_tec: 2,
           nom_tecnologia: 'Bootstrap',
-          icono: '../../../icons_tecnology/bootstrap.png'
+          icono: './icons_tecnology/bootstrap.png'
         },
       ]
     },
     {
       id: 2,
-      imagen: '../../../materiales/formulario.png',
+      imagen: './materiales/formulario.png',
       titulo: 'Formualario de Registro',
       categoria: 'diseño web',
       demo: 'https://cristhiancbm.github.io/design-formulario-registro/',
@@ -219,18 +219,18 @@ export const proy_mat = {
         {
           id_tec: 1,
           nom_tecnologia: 'HTML',
-          icono: '../../../icons_tecnology/html.png'
+          icono: './icons_tecnology/html.png'
         },
         {
           id_tec: 2,
           nom_tecnologia: 'CSS',
-          icono: '../../../icons_tecnology/css.png'
+          icono: './icons_tecnology/css.png'
         }
       ]
     },
     {
       id: 3,
-      imagen: '../../../materiales/texto-escrito.png',
+      imagen: './materiales/texto-escrito.png',
       titulo: 'Texto Escrito',
       categoria: 'diseño web',
       demo: 'https://cristhiancbm.github.io/design-texto-escrito/',
@@ -239,27 +239,27 @@ export const proy_mat = {
         {
           id_tec: 1,
           nom_tecnologia: 'HTML',
-          icono: '../../../icons_tecnology/html.png'
+          icono: './icons_tecnology/html.png'
         },
         {
           id_tec: 2,
           nom_tecnologia: 'CSS',
-          icono: '../../../icons_tecnology/css.png'
+          icono: './icons_tecnology/css.png'
         }
       ]
     },
     {
       id: 3,
-      imagen: '../../../materiales/formulario-operativa-1.png',
+      imagen: './materiales/formulario-operativa-1.png',
       titulo: 'Formulario de OPE-1',
       categoria: 'documento',
-      demo: '../../../materiales/formulario-operativa-1.pdf',
+      demo: './materiales/formulario-operativa-1.pdf',
       link_github: '',
       tecnologias: [
         {
           id_tec: 1,
           nom_tecnologia: 'Word',
-          icono: '../../../icons_tecnology/pdf.png'
+          icono: './icons_tecnology/pdf.png'
         }
       ]
     },
